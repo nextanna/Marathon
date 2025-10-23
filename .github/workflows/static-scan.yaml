@@ -139,7 +139,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       # Official Docker image with Semgrep installed
-      image: returntocorp/semgrep@sha256:8f85dbfb5d38592d0b916caac855cf18facba40674988caf763d52b9fe916694
+      image: returntocorp/semgrep@sha256:b730cc4f4198bf930c3e707c450225388d79e9166e81302d7c1dc3a17cb5ed90
     permissions:
       # required for all workflows
       security-events: write
